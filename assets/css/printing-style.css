@@ -1,0 +1,147 @@
+
+.print-wadah-utama {
+	position: relative;
+	border-style: solid;
+	border-color: black;
+	width: 420px;
+}
+
+.print-upper-part {
+	height: 41px;
+	border-style: solid;
+	border-left-style: none;
+	border-right-style: none;
+	border-top-style: none;
+	text-align: center;
+}
+
+.print-upper-part img {
+
+	width: 40px;
+	height: 35px;
+	display: inline-block;
+}
+
+.print-upper-part .title {
+	font-weight: bold;
+	font-size: 18px;
+	width: 85%;
+	vertical-align: middle;
+	height: 40px;
+	display: inline-block;
+}
+
+.print-middle-part {
+	margin-left: 15px;
+}
+
+.print-table01 tr td:nth-child(3) {
+	border-bottom: solid;
+}
+
+.print-lower-part {
+	height: 100px;
+	width: 300px;
+	border-style: solid;
+	border-left-style: none;
+	border-bottom-style: none;
+	margin-top: 20px;
+}
+
+.print-lower-part-left .number {
+	   margin-top: 54px;
+   	display: block;
+   	margin-left: 7px;
+    height: 20px;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.print-lower-part-left .remark{
+	display: block;
+	text-align: center;
+}
+
+.spacing {
+	width: 100%;
+	height: 5px;
+	display: block;
+	font-size: 2px !important;
+}
+
+.print-lower-part-left, .print-lower-part-right{
+	width: 75px;
+	height: 100%;
+}
+
+.print-lower-part-left{
+	height: 95% !important;
+}
+
+.print-lower-part-right {
+	width: 212px !important;
+	margin: auto;
+	
+}
+
+.print-lower-part-left, .print-lower-part-right{
+	display: inline-block;
+}
+
+.print-lower-part-right td {
+	text-align: center;
+}
+
+.print-lower-part-right table td {
+	border-spacing: -1px;
+	border-style: solid;
+	border-width: 2px;
+ 	padding: 3px;
+
+}
+
+.print-lower-part-right table tr:nth-child(1) td {
+	border-top-style: none !important;
+
+}
+
+.print-lower-part-right table tr {
+	border-spacing: 0px;
+}
+
+.print-lower-part-right table tr td:nth-child(2),
+.print-lower-part-right table tr td:nth-child(1) {
+	border-right-style: none !important;
+}
+
+.print-lower-part-right table tr:nth-child(3)  {
+	height: 47px;
+	
+}
+
+
+.print-lower-part-right table tr:nth-child(3) td {
+	border-bottom-style: none !important;
+	
+}
+
+.print-table02 {
+	margin: auto;
+	border-collapse: collapse; 
+}
+
+.print-lower-qrcode img {
+	width: 100%;
+	height: 100%;
+}
+
+.print-lower-qrcode {
+  position: absolute;
+  bottom: 0; 
+  right: 0; 
+  border-style: solid;
+        width: 130px;
+    height: 120px;
+    border-right-style: none;
+	border-bottom-style: none;
+}
